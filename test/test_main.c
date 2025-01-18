@@ -1,10 +1,8 @@
 #include <CUnit/Basic.h>
-//#include "your_project_header.h"  // Include your headers for testing
+// #include "your_project_header.h"  // Include your headers for testing
 
 // Test function
-void test_addition(void) {
-    CU_ASSERT(2 + 2 == 4);
-}
+void test_addition(void) { CU_ASSERT(2 + 2 == 4); }
 
 int main() {
     // Initialize the CUnit test registry
