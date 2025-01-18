@@ -37,4 +37,4 @@ memtest: $(TEST_FILES)
 
 .PHONY: clean
 clean:
-	rm -rf $(OBJ_DIR)/*.o $(TEST_OBJ_DIR)/*.o
+	rm -rf $(OBJ_DIR)/*.o $(TEST_OBJ_DIR)/*
